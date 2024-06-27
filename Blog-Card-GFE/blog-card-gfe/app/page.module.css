@@ -72,3 +72,7 @@
     border: 1px solid #ccc;
     border-radius: 8%;
 }
+.readMore:disabled{
+    pointer-events: none;
+    color: #a3a3a3;
+}

@@ -1,4 +1,74 @@
-.main{
-    background-color: antiquewhite;
-    color: aquamarine;
+.container {
+    background-color: #F9FAFB;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 290px;
+    height: 450px;
+    border-radius: 2%;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.image {
+    flex: 6;
+    height: 200px;
+    background-color: rgb(16, 40, 193);
+}
+
+.below {
+    display:flex;
+    flex-direction: column;
+    flex: 4;
+    background-color: white;
+}
+.exterior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 65px;
+    height: 22px;
+    margin-bottom: 9px;
+    margin-left: 15px;
+    background-color: rgb(187,247,208);
+    line-height: 20px;
+    border-radius: 9999px;
+}
+.interior{
+    position: relative;
+    font-size: small;
+    color: rgb(21, 168, 61);
+    font-weight: 500;
+}
+.h4{
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 15px;
+}
+.curated{
+    margin-top: 0px;
+    font-size: small;
+    margin-left : 15px;
+    margin-right : 10px;
+}
+.readMore{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 600;
+    width: 120px;
+    color: rgb(67,56,202);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.readMore:hover{
+    border: 1px solid #ccc;
+    border-radius: 8%;
 }

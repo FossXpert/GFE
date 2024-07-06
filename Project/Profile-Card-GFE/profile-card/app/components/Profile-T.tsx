@@ -5,7 +5,9 @@ type Props = {}
 
 const ProfileT = (props: Props) => {
   return (
-    <div>Profile-tailwind</div>
+    <div className='flex justify-center align-center h-screen bg-gray-100'>
+      Hi
+    </div>
   )
 }
 

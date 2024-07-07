@@ -5,7 +5,7 @@ import ProfileT from "./components/Profile-T";
 export default function Home() {
   return (
     <>
-    <Profile/>
+    <ProfileT/>
     </>
   );
 }

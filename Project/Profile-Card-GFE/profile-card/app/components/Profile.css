@@ -27,7 +27,7 @@
 .box-big {
     display: flex;
     flex-direction: column;
-    /* background-color: beige; */
+    background-color: beige;
     /* flex: 4; */
     height: 236px;
     width: 308px;
@@ -89,7 +89,7 @@ p {
 }
 
 .box-small {
-    /* background-color: rgb(189, 135, 69); */
+    background-color: rgb(189, 135, 69);
     /* flex: 2; */
     width: 308px;
     height: 104px;
@@ -116,10 +116,12 @@ button:hover {
 button:focus {
     background-color: rgb(52, 39, 199);
 }
-button:disabled{
+
+button:disabled {
     background-color: #ccc;
     color: #ccc;
 }
+
 .social-icons {
     display: flex;
     justify-content: space-evenly;
@@ -138,6 +140,7 @@ button:disabled{
     border: 1px solid #ccc;
     transform: scale(2);
 }
-.icon:disabled{
+
+.icon:disabled {
     color: #ccc
 }

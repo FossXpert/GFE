@@ -14,7 +14,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors:{
-        'light-gray':'#ccc'
+        'light-gray': 'rgb(249,250,251)',
+        'dark-gray': 'rgb(33, 37, 41)',
+        'h3-color' : 'rgb(23,23,23)',
+      },
+      boxShadow:{
+        'rp' : '0 0 8px rgba(0, 0, 0, 0.2)',
+      },
+      fontFamily:{
+        'noto' : 'Noto Sans, sans-serif'
       }
     },
   },

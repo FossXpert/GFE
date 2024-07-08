@@ -23,6 +23,9 @@ const config: Config = {
       },
       fontFamily:{
         'noto' : 'Noto Sans, sans-serif'
+      },
+      scale:{
+        '200' : '2',
       }
     },
   },

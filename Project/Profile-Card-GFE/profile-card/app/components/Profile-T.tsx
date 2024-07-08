@@ -33,19 +33,19 @@ const ProfileT = (props: Props) => {
         </div>
         <div className='w-[308px] h-[104px] flex flex-col relative'>
         <button className='bg-[rgb(67,56,202)] h-[44px] text-[#fff]
-                font-noto font-[500] text-[16px] leading-[24px]'>Contact Me</button>
+                font-noto font-[500] text-[16px] leading-[24px] hover:bg-[rgb(52,39,199)]'>Contact Me</button>
           <div className='flex justify-evenly items-center absolute top-[68px] h-[36px] w-[308px]'>
             <a href='#'>
-              <FaGithub className='text-[rgb(67,56,202)]'/>
+              <FaGithub className='text-[rgb(67,56,202)] hover:border-[1px] hover:border-[#ccc] hover:scale-200 disabled:text-[#ccc]'/>
             </a>
             <a href='#'>
-              <FaLinkedin className='icon'/>
+              <FaLinkedin className='text-[rgb(67,56,202)] hover:border-[1px] hover:border-gray-300 hover:scale-200 disabled:text-[#ccc]'/>
             </a>
             <a href='#'>
-              <FaInstagram className='icon'/>
+              <FaInstagram className='text-[rgb(67,56,202)] hover:border-[1px] hover:border-gray-300 hover:scale-200 disabled:text-[#ccc]'/>
             </a>
             <a href='#'>
-              <FaXTwitter className='icon'/>
+              <FaXTwitter className='text-[rgb(67,56,202)] hover:border-[1px] hover:border-gray-300 hover:scale-200 disabled:text-[#ccc]'/>
             </a>
         </div>
       </div> 
